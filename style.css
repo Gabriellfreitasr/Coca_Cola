@@ -28,3 +28,85 @@ section {
     background-color: #E51E2A;
     clip-path: circle(50% at bottom right);
 }
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    max-width: 150px;
+}
+
+.navegation ul {
+    position: relative;
+    display: flex;
+}
+
+.navegation li {
+    list-style: none;
+}
+
+.navegation li a {
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 19px;
+    margin-left: 100px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.text h2 {
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700;
+}
+
+.text span {
+    font-size: 2.5em;
+    color: #E51E2A;
+}
+
+.text p {
+    color: #ffffff;
+}
+
+.container a {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 25px;
+    background: #E51E2A;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
+
+.container a:hover {
+    transform: translateY(-10px);
+}
